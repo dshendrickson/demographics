@@ -20,5 +20,8 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
+  app.import('vendor/d3.v4.js');
+  app.import('vendor/topojson.v2.js');
+
   return app.toTree();
 };
