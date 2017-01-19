@@ -22,6 +22,7 @@ module.exports = function(defaults) {
 
   app.import('vendor/d3.v4.js');
   app.import('vendor/topojson.v2.js');
+  app.import('vendor/us.json');
 
   return app.toTree();
 };
