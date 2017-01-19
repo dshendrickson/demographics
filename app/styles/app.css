@@ -1,11 +1,3 @@
-.chart div {
-  front: 10px sans-serif;
-  background-color: #EC4141;
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
-  color: white;
-}
 
 path {
   fill: #ccc;
