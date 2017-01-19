@@ -1,4 +1,6 @@
 import Ember from 'ember';
+import d3 from 'd3';
+import topojson from 'topojson';
 
 export default Ember.Component.extend({
 
@@ -28,7 +30,9 @@ export default Ember.Component.extend({
     let g = svg.append("g");
 
     d3.json("vendor/us.json", function(error, us) {
-      if (error) throw error;
+      if (error) {
+        throw error;
+      }
 
       g.append("g")
           .attr("id", "counties")
