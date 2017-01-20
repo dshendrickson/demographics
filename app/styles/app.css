@@ -1,7 +1,14 @@
+html {
+   box-sizing: border-box;
+}
 body {
-  text-align: center;
+  background: #9ad3de;
+  display: flex;
+  flex-direction: column;
   font-family: 'Roboto', sans-serif;
+  margin: auto;
   width: 960px;
+  text-align: center;
 }
 
 path {
@@ -14,16 +21,16 @@ path:hover {
   fill: red;
 }
 .background {
-  fill: none;
+  fill: #9ad3de;
   pointer-events: all;
 }
 
 #counties {
-  fill: #aaa;
+  fill: #c9c9C9;
 }
 
 #counties .active {
-  fill: orange;
+  fill: #89bdd3;
 }
 
 #county-borders {
