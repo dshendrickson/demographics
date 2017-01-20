@@ -50,3 +50,34 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+## Project Name & Pitch
+
+#### Example:
+
+County Demographics
+
+The intent of this application is to present a map of the US by county and allow the user to pick the county and get key demographic information to assist with economic development planning.  This application use the Ember JS framework, the D3 JS library, and the Topojson JS library.
+
+## Project Status
+(only necessary if incomplete)
+
+#### Example:
+
+This project is currently in development. Users can filter tweets by username and keyword and see visual data representation. Functionality to sort by additional parameters is in progress.
+
+## Project 
+
+Visit the site: [County Demographics](http://54.202.83.44/)
+
+## Installation and Setup Instructions
+
+Please installation and setup instructions about.
+
+## Reflection
+
+This intend of this project was to provide demographic population trends by county.  This was a Turing School of Software and Design individual project for the completion of Module Three.
+
+I set out to build a fully functional application the would display population trends by age for the last 25years based on data available from the US Census Bureau.
+
+The challenge of this project was merging the Ember and D3 highly opinionated javascript platforms together.  I learned a tremendous amount about the power and the complications of merging these two tools.
